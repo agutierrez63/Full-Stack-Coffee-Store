@@ -1,0 +1,7 @@
+use agutierrez;
+
+DESCRIBE users;
+SELECT * FROM users;
+
+DESCRIBE CoffeeProducts;
+SELECT * FROM CoffeeProducts;

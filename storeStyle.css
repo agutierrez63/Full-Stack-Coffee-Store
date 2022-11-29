@@ -1,0 +1,164 @@
+.products {
+    border: 1px solid #222;
+    background-color: #F8F8FF;
+    border-radius: 2px;
+    padding: 16px;
+    margin-bottom: 20px;
+    height: 360px;
+    width: 240px;
+}
+
+.table {
+    margin: 0px auto;
+    float: none;
+}
+
+.row {
+    margin: 0px auto;
+    float: none;
+}
+
+.centered {
+    float: none;
+    margin: 0 auto;
+}
+
+.button {
+    background-color: #331a00;
+    color: #F8F8FF;
+    text-align: center;
+    padding: 12px;
+    text-decoration: none;
+    display: block;
+    border-radius: 3px;
+    font-size: 16px;
+    margin: 25px 0 15px 0;
+}
+
+.button:visited {
+    text-decoration: none;
+    color: #F8F8FF;
+}
+
+.button:hover {
+    background: #331a01;
+    text-decoration: none;
+    color: #F8F8FF;
+}
+
+.button:active {
+    text-decoration: none;
+    color: #F8F8FF;
+}
+
+.btn-danger {
+    font-size: 12px;
+    padding: 3px;
+}
+
+.btn-danger:hover {
+    text-decoration: none;
+}
+
+a { 
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+h3 {
+    margin-top: 0px;
+    color: #F8F8FF;
+}
+
+html {
+    box-sizing: border-box;
+}
+
+.headerTitle {
+    font: 200 50px/1.3 'Berkshire Swash', Helvetica, sans-serif;
+    color: #F8F8FF;
+    text-shadow: 1px 1px 0px #ededed, 4px 4px 0px rgba(0, 0, 0, 0.15);
+    text-align: center;
+}
+
+.myHeader{
+    font: 100 30px/1.3 'Great Vibes', Helvetica, sans-serif;
+    color: #F8F8FF;
+    text-shadow: 1px 1px 0px #ededed, 4px 4px 0px rgba(0, 0, 0, 0.15);
+    text-align: right;
+    padding-right: 1em;
+}
+
+body {
+    position: relative;
+    margin: 0;
+    padding-bottom: 100px;
+    /*height: 100%;*/
+    font-family: "Helvetica Neue", Arial, sans-serif;
+    font-size: 120%;
+    background-color: #F8F8FF;
+    background-image: url("./images/Brewed Coffee.jpg");
+}
+
+footer {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background-color: #331a00;
+    text-align: center;
+    color: white;
+    clear: both;
+}
+.sidenav {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: #331A00;
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 60px;
+}
+
+.sidenav a {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #A79888;
+    display: block;
+    transition: 0.3s;
+}
+
+.sidenav a:hover {
+    color: #F8F8FF;
+}
+
+.sidenav .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+}
+
+#main {
+    transition: margin-left .5s;
+    padding: 16px;
+}
+
+@media screen and (max-height: 450px) {
+  .sidenav {padding-top: 15px;}
+  .sidenav a {font-size: 18px;}
+}
+
+.active {
+    background-color: #994d00;
+    color: #F8F8FF;
+}
+
